@@ -1,0 +1,6 @@
+{
+  "autonomy": 5,
+  "departure": "A",
+  "arrival": "S",
+  "routes_db": "test_data/jabba.db"
+}

@@ -1,0 +1,6 @@
+{
+  "autonomy": 100000,
+  "departure": "A",
+  "arrival": "S",
+  "routes_db": "test_data/zelbulba.db"
+}
