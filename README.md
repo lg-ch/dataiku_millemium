@@ -9,7 +9,7 @@ To get started with this project, follow these installation instructions:
 1. **Clone the Repository**: First, clone the repository to your local machine.
 
    ```bash
-   git clone https://github.com/your-username/millenium.git
+   git clone https://github.com/lg-ch/dataiku_millemium.git
    cd src
    ```
 
@@ -42,9 +42,10 @@ To get started with this project, follow these installation instructions:
 
 ## Using the Command Line Interface (CLI)
 
-To use the CLI, you can execute the command directly from the project's root directory whitout installing any python package as follows:
+To use the CLI, you can execute the command directly from the project's root directory by installing the click python package and run the command as follows:
 
 ```bash
+pip install click==8.1.7
 python3 r2d2_c3po_brain.py r2d2 test_data/millenium.json test_data/empire2.json
 ```
 
