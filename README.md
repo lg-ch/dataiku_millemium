@@ -33,6 +33,8 @@ To get started with this project, follow these installation instructions:
    ```
 5. **Navigate to the URL** : Open your web browser and go to http://127.0.0.1:8000. You should see the following image:
    
+   `![Expected Image](images/homepage.png)`
+   
    
 
    
