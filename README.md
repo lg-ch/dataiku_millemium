@@ -1,4 +1,4 @@
-# Dataiku_Millenium_Falcon_Graph
+# Dataiku Millenium Falcon Graph
 
 The purpose of this project is to provide an application that addresses the challenge described by the [Millenium Falcon Challenge](https://github.com/dataiku/millenium-falcon-challenge).
 
