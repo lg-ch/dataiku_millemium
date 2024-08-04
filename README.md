@@ -31,10 +31,29 @@ To get started with this project, follow these installation instructions:
    ```bash
    docker-compose up -d
    ```
-5. **Navigate to the URL** : Open your web browser and go to http://127.0.0.1:8000. You should see the following image:
+5. **Navigate to the URL** : Open your web browser and go to http://127.0.0.1:8000. You are now at the home page, you can now drag and drop your files and compute the Odds.
    
-   `![Expected Image](images/homepage.png)`
-   
+   **Disclaimer**: The application displays the graph on the screen. However, if the graph is too large, only a portion of it will be displayed for clarity.
+   Currently, the application displays a maximum of 12 nodes and 25 edges. (Obviously your files and the computed odds remain the same).
+
+## Using the Command Line Interface (CLI)
+
+To use the CLI, you can execute the command directly from the project's root directory whitout installing any python package as follows:
+
+```bash
+python3 r2d2_c3po_brain.py r2d2 test_data/millenium.json test_data/empire2.json
+```
+
+Ensure that the paths to your `millenium.json`, `empire.json` and `universe.db` files are accessible. 
+
+If you have imported your files into the Docker volume, you can also run the command within the Docker container :
+
+```bash
+docker exec -it chewbackah sh
+python3 r2d2_c3po_brain.py r2d2 data/millenium.json data/empire2.json
+```
+
+
    
 
    
