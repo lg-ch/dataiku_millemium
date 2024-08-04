@@ -1,3 +1,7 @@
+# Dataiku_Millenium_Falcon_Graph
+
+The purpose of this project is to provide an application that addresses the challenge described by the [Millenium Falcon Challenge](https://github.com/dataiku/millenium-falcon-challenge).
+
 ## Installation
 
 To get started with this project, follow these installation instructions:
@@ -6,7 +10,7 @@ To get started with this project, follow these installation instructions:
 
    ```bash
    git clone https://github.com/your-username/millenium.git
-   cd millenium
+   cd src
    ```
 
 2. **Build the Docker Image**: Navigate to the root of the project and build the Docker image using the following command:
