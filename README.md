@@ -10,10 +10,10 @@ To get started with this project, follow these installation instructions:
 
    ```bash
    git clone https://github.com/lg-ch/dataiku_millemium.git
-   cd src
+   cd dataiku_millenium/src
    ```
 
-2. **Build the Docker Image**: Navigate to the root of the project and build the Docker image using the following command:
+2. **Build the Docker Image**:  build the Docker image using the following command:
 
    ```bash
    docker build -t millenium .
